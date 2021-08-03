@@ -1,0 +1,25 @@
+{
+  "name": "express_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon --signal SIGKILL index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soon-404/Express_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soon-404/Express_tutorial/issues"
+  },
+  "homepage": "https://github.com/soon-404/Express_tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {}
+}
