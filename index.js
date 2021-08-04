@@ -2,11 +2,15 @@ const express = require("express");
 const path = require("path");
 const users = require("./Users");
 const logger = require("./middleware/logger");
-
+const exhdb = require("express-handlebars");
 const app = express();
 
 // Init Middleware
 app.use(logger);
+
+// Handles Middleware
+// app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+// app.set("view engine", "handlebars");
 
 // Body parse middleware ตอน post ให้ข้อมูลแสดงออกมา
 app.use(express.json());
